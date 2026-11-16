@@ -54,7 +54,7 @@ if __name__ == "__main__":
     # 暗号化したファイルを書き出す出力先フォルダ
     OUTPUT_DIRECTORY = "./encrypted" 
     # あなたのage公開鍵（パスフレーズ運用にする場合は -p を使うようcmdを変更）
-    RECIPIENT_PUBLIC_KEY = "age1v9fkzx479yr53wlx9e0pesk00usupezp0cyx5v9znzdy7rqurq7qa479me" 
+    RECIPIENT_PUBLIC_KEY = "age1--------" 
     
     encrypt_existing_archives(
         source_dir=SOURCE_DIRECTORY,
